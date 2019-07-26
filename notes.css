@@ -1,0 +1,83 @@
+CSS NOTES
+
+styling elements
+
+  selector {
+      character: value;
+}
+
+  ie:
+
+    p{
+      color: green;
+      font-size: 25px:
+
+  }
+
+  USING CLASSES TO STYLE SPECIFIC ELEMENTS
+
+  in HTML:
+    <selector class = "classname">
+
+  in CSS:
+    .classname{
+      character: value;
+    }
+
+ie:
+
+  in HTML:
+    <h1 class = "blueborder"> random text <h/h1>
+
+  in CSS:
+    .blueborder{
+      border: 10px blue;
+    }
+
+
+USING AN ID TO STYLE ONE ELEMENT
+
+  in HTML:
+    <selector id = "idname"> random text </selector>
+
+    in CSS:
+      #idname{
+        character: value;
+
+      }
+
+
+  ie:
+
+    in HTML:
+      <li id = "funkyborder"> random text </li>
+
+    in CSS:
+      #funkyborder{
+        border: 20px solid purple;
+
+      }
+
+HELPFUL CHARACTERS
+
+  border-radius: smooths edges of a box to make more circular
+  box-shadow: puts a shadow on a box
+  height: changes the height (px or %) [if you do not include width and only change height and vice versa,
+  picture stays proportionate]
+  width: changes the width (px or %)
+  border: creastes a border around the elements
+  color: changes the font color (turns orange if recognized)
+  font-family: changes the font-face
+  margin: adds a margin around the element, outside of the border (px)
+  padding: increases the space within the element, inside of the border (px)
+
+
+FLEX-BOX: ARRANGES ITEMS IN A CONTAINER
+    - *always need to start with display:flex;
+    - different options:
+        - justify-content (arranges items horizontally on page): center, space-between, space around
+        - align-items (aranges items vertically on page): center, flex-end, flex-startr
+        - flex-direction (direction objects are placed): row (left to right), row-reverse, column (up and down),
+         and column-reverse
+        - flex-wrap (organizes content on lines/rows): wrap (multiple lines), no-wrap (one line), wrap-reverse
+        (items in reverse order on multiple lines)
